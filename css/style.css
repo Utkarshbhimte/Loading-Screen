@@ -1,0 +1,48 @@
+body,html{
+	background: #274555;
+	height: 60%;
+	width: 100%;
+}
+
+section{
+	height: 40vw;
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vh !important;
+}
+
+div{
+	text-align: center;
+	color: #274555;
+	line-height: 4rem;
+	height: 4rem;
+	width: 4rem;
+	mix-blend-mode: lighten;
+	border-radius:.6em;
+	margin-bottom: .3em;
+    transition: filter .2s ease-in-out;
+    transition: -webkit-filter .2s ease-in-out;
+    float: left;
+}
+
+div:hover{
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+.one{
+	background-color: #f9a11b;
+}
+
+.two{
+	background-color: #fdc23e;
+}
+
+.three{
+	background-color: #ff7761;
+}
+
+h1{
+	color: white;
+}
